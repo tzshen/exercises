@@ -1,4 +1,12 @@
+import Vue from 'vue';
 import { cube } from './math.js';
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+});
 
 function component() {
   var element = document.createElement('pre');

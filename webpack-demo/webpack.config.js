@@ -12,7 +12,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   resolve: {
-    extensions: [ ".tsx", ".ts", ".js" ]
+    extensions: [ ".tsx", ".ts", ".js" ],
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
   module: {
     rules: [
