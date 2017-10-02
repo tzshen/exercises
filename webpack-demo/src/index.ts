@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { cube } from './math.js';
+import { cube } from './math.ts';
 
 var app = new Vue({
   el: '#app',
