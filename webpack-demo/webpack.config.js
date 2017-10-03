@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   resolve: {
-    extensions: [ ".tsx", ".ts", ".js" ],
+    extensions: [ '.tsx', '.ts', '.js' ],
     alias: {
       vue: 'vue/dist/vue.js'
     }
@@ -32,13 +32,13 @@ module.exports = {
       }
     }),
     new webpack.optimize.CommonsChunkPlugin({
-      name: "vendor",
+      name: 'vendor',
       minChunks: function(module){
-        return module.context && module.context.indexOf("node_modules") !== -1;
+        return module.context && module.context.indexOf('node_modules') !== -1;
       }
     }),
     new webpack.optimize.CommonsChunkPlugin({
-      name: "manifest",
+      name: 'manifest',
       minChunks: Infinity
     }),
     new webpack.optimize.UglifyJsPlugin({
