@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -42,7 +41,7 @@ module.exports = {
       name: "manifest",
       minChunks: Infinity
     }),
-    new UglifyJSPlugin({
+    new webpack.optimize.UglifyJsPlugin({
       sourceMap: true
     })
   ]
