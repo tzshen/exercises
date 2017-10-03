@@ -1,5 +1,12 @@
 {
     "editor.tabSize": 2,
+    "eslint.validate": [
+        "javascript",
+        "html"
+    ],
+    "eslint.options": {
+        "plugins": ["html"]
+    },
     "eslint.autoFixOnSave": true,
-    "tslint.enable": false,
+    "tslint.enable": false
 }
