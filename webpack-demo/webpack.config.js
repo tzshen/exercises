@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
@@ -43,7 +42,6 @@ module.exports = {
       name: "manifest",
       minChunks: Infinity
     }),
-    new CleanWebpackPlugin(['dist']),
     new UglifyJSPlugin({
       sourceMap: true
     })
