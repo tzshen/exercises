@@ -12,7 +12,7 @@ module.exports = {
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ],
     alias: {
-      vue: 'vue/dist/vue.js'
+      vue$: 'vue/dist/vue.esm.js'
     }
   },
   module: {
