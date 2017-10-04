@@ -9,5 +9,8 @@
     "extends": "airbnb-base",
     "rules": {
         "import/extensions": 0
+    },
+    "globals": {
+        "Vue": false
     }
 }
