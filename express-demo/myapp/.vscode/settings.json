@@ -4,9 +4,6 @@
         "javascript",
         "html"
     ],
-    "eslint.options": {
-        "plugins": ["html"]
-    },
     "eslint.autoFixOnSave": true,
     "tslint.enable": false
 }
