@@ -15,6 +15,7 @@
         "import/extensions": 0
     },
     "globals": {
+        "$": false,
         "Vue": false
     }
 }
