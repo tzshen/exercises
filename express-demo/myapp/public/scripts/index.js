@@ -9,7 +9,6 @@ Vue.component('simple-counter', {
   },
 });
 
-// eslint-disable-next-line no-unused-vars
 const app = new Vue({
   el: '#app',
   data: {
